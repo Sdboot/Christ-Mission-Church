@@ -53,9 +53,6 @@
     left: 0;
     right: 0;
     z-index: 100;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .container {
@@ -76,8 +73,8 @@
   }
 
   .logo-img {
-    height: 60px;
-    width: auto;
+    height: 80px;
+    width: 80px;
     max-width: 120px;
     object-fit: contain;
   }
@@ -88,14 +85,14 @@
   }
 
   .nav-desktop a {
-    color: white;
+    color: #222;
     font-weight: 500;
     transition: color 0.3s ease;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
 
   .nav-desktop a:hover {
-    color: #ffd700;
+    color: #2d5016;
   }
 
   .mobile-toggle {

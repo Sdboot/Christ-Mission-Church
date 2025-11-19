@@ -12,9 +12,9 @@
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <h1 class="hero-title">Welcome to Christ Mission Church</h1>
+      <h1 class="hero-title">Christ Mission Church</h1>
       <p class="hero-subtitle">
-        A community devoted to faith, fellowship, and spiritual growth
+        A community devoted to faith and bringing all the earth to Christ.
       </p>
       <button 
         class="cta-button"
@@ -48,7 +48,7 @@
     right: 0;
     bottom: 0;
     background: url('/assets/salvation.jpg') center/cover no-repeat;
-    filter: blur(5px);
+    filter: blur(2px);
     z-index: 0;
   }
 
