@@ -18,7 +18,7 @@
   <div class="container">
     <div class="nav-wrapper">
       <div class="logo">
-        <h2>✝️ CMC</h2>
+        <img src="/assets/cmc-logo.jpeg" alt="CMC Logo" class="logo-img" />
       </div>
       
       <nav class="nav-desktop">
@@ -72,6 +72,13 @@
     color: #2d5016;
     font-size: 1.8rem;
     margin: 0;
+  }
+
+  .logo-img {
+    height: 50px;
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
   }
 
   .nav-desktop {
