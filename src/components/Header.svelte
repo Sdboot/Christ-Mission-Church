@@ -18,7 +18,7 @@
   <div class="container">
     <div class="nav-wrapper">
       <div class="logo">
-        <img src="/assets/cmc-logo.jpeg" alt="CMC Logo" class="logo-img" />
+        <img src="/assets/cmc logo2.jpeg" alt="CMC Logo" class="logo-img" />
       </div>
       
       <nav class="nav-desktop">
@@ -53,30 +53,53 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/assets/salvation.jpg') center/cover no-repeat;
+    filter: blur(5px);
+    z-index: 0;
+  }
+
+  .header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 1;
   }
 
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    position: relative;
+    z-index: 2;
   }
 
   .nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0;
-  }
-
-  .logo h2 {
-    color: #2d5016;
-    font-size: 1.8rem;
-    margin: 0;
+    padding: 0.5rem 0;
+    position: relative;
+    z-index: 2;
   }
 
   .logo-img {
-    height: 50px;
-    width: auto;
+    height: 100px;
+    width: 100px;
     max-width: 150px;
     object-fit: contain;
   }
