@@ -1,7 +1,7 @@
-<script lang="ts">
+<script>
   import { onMount } from 'svelte';
   
-  let mapContainer: HTMLDivElement;
+  let mapContainer;
   let mapInitialized = false;
 
   onMount(async () => {

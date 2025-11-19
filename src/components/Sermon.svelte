@@ -1,14 +1,5 @@
-<script lang="ts">
-  interface Sermon {
-    id: number;
-    title: string;
-    speaker: string;
-    date: string;
-    image: string;
-    description: string;
-  }
-
-  const sermons: Sermon[] = [
+<script>
+  const sermons = [
     {
       id: 1,
       title: 'The Power of Faith',

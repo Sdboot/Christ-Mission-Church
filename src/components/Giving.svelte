@@ -1,12 +1,5 @@
-<script lang="ts">
-  interface Account {
-    bank: string;
-    accountName: string;
-    accountNumber: string;
-    icon: string;
-  }
-
-  const accounts: Account[] = [
+<script>
+  const accounts = [
     {
       bank: 'First Bank',
       accountName: 'Christ Mission Church',
@@ -29,7 +22,7 @@
 
   let copied = false;
 
-  const copyToClipboard = (text: string) => {
+  const copyToClipboard = (text) => {
     navigator.clipboard.writeText(text);
     copied = true;
     setTimeout(() => copied = false, 2000);

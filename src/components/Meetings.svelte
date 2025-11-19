@@ -1,11 +1,5 @@
-<script lang="ts">
-  interface Meeting {
-    day: string;
-    time: string;
-    icon: string;
-  }
-
-  const meetings: Meeting[] = [
+<script>
+  const meetings = [
     { day: 'Wednesday', time: '5:00 PM', icon: '📖' },
     { day: 'Friday', time: '5:00 PM', icon: '🙏' },
     { day: 'Saturday', time: '5:30 PM', icon: '✨' },

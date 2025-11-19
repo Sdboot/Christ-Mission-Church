@@ -1,11 +1,11 @@
-<script lang="ts">
+<script>
   let mobileMenuOpen = false;
 
   const toggleMenu = () => {
     mobileMenuOpen = !mobileMenuOpen;
   };
 
-  const scrollToSection = (id: string) => {
+  const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   let isHovering = false;
 
   const handleJoinClick = () => {

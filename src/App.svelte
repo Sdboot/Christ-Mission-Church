@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import Hero from './components/Hero.svelte';
   import Header from './components/Header.svelte';
   import Meetings from './components/Meetings.svelte';
