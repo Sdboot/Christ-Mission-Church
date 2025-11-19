@@ -48,36 +48,14 @@
 
 <style>
   .header {
-    background: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 100;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('/assets/salvation.jpg') center/cover no-repeat;
-    filter: blur(5px);
-    z-index: 0;
-  }
-
-  .header::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.95);
-    z-index: 1;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .container {
@@ -92,15 +70,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 0;
+    padding: 0.75rem 0;
     position: relative;
     z-index: 2;
   }
 
   .logo-img {
-    height: 100px;
-    width: 100px;
-    max-width: 150px;
+    height: 60px;
+    width: auto;
+    max-width: 120px;
     object-fit: contain;
   }
 
@@ -110,13 +88,14 @@
   }
 
   .nav-desktop a {
-    color: #1a1a1a;
+    color: white;
     font-weight: 500;
     transition: color 0.3s ease;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
 
   .nav-desktop a:hover {
-    color: #2d5016;
+    color: #ffd700;
   }
 
   .mobile-toggle {
@@ -130,8 +109,9 @@
   .mobile-toggle span {
     width: 25px;
     height: 3px;
-    background: #1a1a1a;
+    background: white;
     border-radius: 2px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
 
   .nav-mobile {
@@ -139,13 +119,14 @@
     flex-direction: column;
     gap: 1rem;
     padding: 1rem 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .nav-mobile a {
-    color: #1a1a1a;
+    color: white;
     font-weight: 500;
     padding: 0.5rem 0;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
 
   @media (max-width: 768px) {

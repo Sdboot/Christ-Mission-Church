@@ -37,6 +37,7 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
+    padding-top: 80px;
   }
 
   .hero::before {
