@@ -69,12 +69,12 @@
     align-items: center;
     padding: 0.75rem 0;
     position: relative;
-    z-index: 2;
-  }
+    z-index: 2;}
 
   .logo-img {
     height: 80px;
     width: 80px;
+    border-radius:50% ;
     max-width: 120px;
     object-fit: contain;
   }
@@ -127,6 +127,12 @@
   }
 
   @media (max-width: 768px) {
+    .logo-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    max-width: 80px;}
     .nav-desktop {
       display: none;
     }

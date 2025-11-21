@@ -2,7 +2,6 @@
 
 ## ✅ CHRIST MISSION CHURCH WEBSITE IS COMPLETE!
 
-```
 ╔════════════════════════════════════════════════════════════╗
 ║                                                            ║
 ║     CHRIST MISSION CHURCH WEBSITE - READY FOR LAUNCH      ║
@@ -10,7 +9,7 @@
 ║                    ✅ COMPLETE ✅                          ║
 ║                                                            ║
 ╚════════════════════════════════════════════════════════════╝
-```
+
 
 ---
 

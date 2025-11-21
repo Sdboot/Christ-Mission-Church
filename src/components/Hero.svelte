@@ -65,7 +65,7 @@
 
   .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0 20px;
     width: 100%;
     position: relative;
@@ -160,7 +160,8 @@
 
   @media (max-width: 768px) {
     .hero {
-      min-height: 70vh;
+      min-height: 90vh;
+      
     }
 
     .hero-title {
